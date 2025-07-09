@@ -1,0 +1,16 @@
+{
+  "name": "nodeconcepts",
+  "version": "1.0.0",
+  "main": "eventloops.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eventloop": "node eventloops.js",
+    "buffer" : "node buffer-demo.js",
+    "steam" : "node stream-demo.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
