@@ -1,0 +1,22 @@
+{
+  "name": "redis-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "string": "nodemon string.js",
+    "list": "nodemon list.js",
+    "set": "nodemon set.js",
+    "hash": "nodemon hash.js",
+    "sortedlist": "nodemon sortedlist.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ioredis": "^5.6.1",
+    "nodemon": "^3.1.10"
+  }
+}
