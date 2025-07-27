@@ -1,7 +1,7 @@
 {
   "name": "redis-playground",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,13 +9,17 @@
     "list": "nodemon list.js",
     "set": "nodemon set.js",
     "hash": "nodemon hash.js",
-    "sortedlist": "nodemon sortedlist.js"
+    "sortedlist": "nodemon sortedlist.js",
+    "redis-dev": "nodemon main.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
     "ioredis": "^5.6.1",
     "nodemon": "^3.1.10"
   }
